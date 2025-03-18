@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <time.h>
 
 void generate_graph(const char *filename, int vertices, int edges) {
@@ -76,7 +77,12 @@ int main() {
         input_custom_graph(filename, vertices, edges);
     } else {
         printf("Invalid mode selected.\n");
+        return -1;
     }
 
+    char* command = malloc((strlen(filename) + 15) * sizeof(char));
+    sprintf(command, "./graph.out %s", filename);
+    system(command);
+    free(command);
     return 0;
 }
