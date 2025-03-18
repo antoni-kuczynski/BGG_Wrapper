@@ -81,8 +81,8 @@ int main() {
     char* command = malloc((strlen(filename) + 15) * sizeof(char));
     sprintf(command, "./graph.out %s", filename);
     system(command);
-    sprintf(command, "rm %s", filename);
-    system(command);
+    // sprintf(command, "rm %s", filename);
+    // system(command);
     free(command);
     return 0;
 }
