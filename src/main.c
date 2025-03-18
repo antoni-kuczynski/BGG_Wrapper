@@ -59,10 +59,8 @@ void input_custom_graph(const char *filename, int vertices, int edges) {
 
 int main() {
     int vertices, edges, mode;
-    char filename[256];
+    char* filename = "graph.gr";
 
-    printf("Enter output filename: ");
-    scanf("%255s", filename);
     printf("Enter number of vertices: ");
     scanf("%d", &vertices);
     printf("Enter number of edges: ");
@@ -82,6 +80,8 @@ int main() {
 
     char* command = malloc((strlen(filename) + 15) * sizeof(char));
     sprintf(command, "./graph.out %s", filename);
+    system(command);
+    sprintf(command, "rm %s", filename);
     system(command);
     free(command);
     return 0;
