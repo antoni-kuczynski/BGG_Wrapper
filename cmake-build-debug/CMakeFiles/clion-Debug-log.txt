@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/antekk/CLionProjects/BGG_Wrapper Select CMakeLists.txt
