@@ -1,9 +1,0 @@
-new -f
-add
-add
-add
-add
-arch add 0 1
-arch add 1 3
-arch add 1 2
-list
