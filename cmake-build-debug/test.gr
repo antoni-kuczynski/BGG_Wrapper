@@ -1,0 +1,19 @@
+new -f
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+arch add 0 4
+arch add 6 4
+arch add 4 0
+arch add 9 3
+arch add 8 8
+arch add 1 7
+arch add 1 4
+list -t

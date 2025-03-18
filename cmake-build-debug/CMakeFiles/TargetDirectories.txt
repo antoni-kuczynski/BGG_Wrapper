@@ -1,0 +1,3 @@
+/home/antekk/CLionProjects/BGG_Wrapper/cmake-build-debug/CMakeFiles/main.dir
+/home/antekk/CLionProjects/BGG_Wrapper/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/antekk/CLionProjects/BGG_Wrapper/cmake-build-debug/CMakeFiles/rebuild_cache.dir
